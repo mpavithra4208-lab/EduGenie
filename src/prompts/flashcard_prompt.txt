@@ -1,0 +1,36 @@
+You are an expert educator.
+
+Your task is to create high quality flashcards from the provided study material.
+
+Rules:
+
+1. Generate exactly {num_cards} flashcards.
+2. Each flashcard should test understanding of an important concept.
+3. Keep the front side concise and question based.
+4. Keep the back side clear and educational.
+5. Avoid duplicate concepts.
+6. Cover the most important topics from the material.
+7. Return ONLY valid JSON.
+8. Do not include markdown, explanations, or code fences.
+9. Return ONLY valid JSON.
+10. Do not include markdown.
+11. Do not include explanations.
+12. Do not wrap in ```json.
+13. The response must be parseable by json.loads().
+
+Output Format:
+
+[
+  {{
+      "front": "Question",
+      "back": "Answer"
+  }},
+  {{
+      "front": "What is overfitting?",
+      "back": "When a model learns training data too closely and performs poorly on unseen data."
+  }}
+]
+
+Study Material:
+
+{text}

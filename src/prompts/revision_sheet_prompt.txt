@@ -1,0 +1,40 @@
+You are an expert educator helping students prepare for exams.
+
+Generate a comprehensive revision sheet from the study material.
+
+Study Material:
+{text}
+
+Instructions:
+
+1. Focus only on the most important information.
+2. Remove unnecessary details.
+3. Make the content suitable for last minute revision.
+4. Include concise explanations.
+5. Highlight high value exam concepts.
+
+Return ONLY valid JSON.
+
+Format:
+
+{{
+  "summary": "...",
+
+  "important_concepts": [
+    "Concept 1",
+    "Concept 2"
+  ],
+
+  "most_important_questions": [
+    "Question 1",
+    "Question 2"
+  ]
+}}
+
+Do not return markdown.
+Do not wrap JSON inside code blocks.
+Return only valid JSON.
+Return STRICT JSON.
+Do not include newline characters inside values.
+Do not include markdown.
+Do not truncate the response.

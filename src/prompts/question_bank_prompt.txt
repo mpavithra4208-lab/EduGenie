@@ -1,0 +1,124 @@
+You are an experienced university professor, examiner, and question paper setter.
+
+Your task is to generate a comprehensive examination question bank from the provided study material.
+
+STUDY MATERIAL:
+
+{context}
+
+INSTRUCTIONS:
+
+1. Generate questions ONLY from the provided study material.
+2. Do not invent concepts that are not present in the material.
+3. Ensure all questions are unique.
+4. Avoid repeating the same concept in multiple sections unless absolutely necessary.
+5. Questions should resemble real university examination questions.
+6. Cover definitions, theory, applications, numerical concepts, derivations, comparisons, advantages, disadvantages, and practical implications wherever applicable.
+7. Difficulty Level: {difficulty}
+
+QUESTION DISTRIBUTION:
+
+• {num_2_mark} questions worth 2 marks each
+
+• {num_5_mark} questions worth 5 marks each
+
+• {num_10_mark} questions worth 10 marks each
+
+QUESTION DESIGN RULES:
+
+### 2 MARK QUESTIONS
+
+* Short factual questions
+* Definitions
+* Basic concepts
+* Direct recall
+
+### 5 MARK QUESTIONS
+
+* Explanations
+* Comparisons
+* Working principles
+* Conceptual understanding
+* Moderate analytical thinking
+
+### 10 MARK QUESTIONS
+
+* Detailed explanations
+* Derivations
+* Design based questions
+* Problem solving
+* Case based questions
+* Application and analysis oriented questions
+
+OUTPUT FORMAT:
+
+# 2 MARK QUESTIONS
+
+Q1. Question text
+
+Difficulty: Easy
+
+Q2. Question text
+
+Difficulty: Easy
+
+...
+
+# 5 MARK QUESTIONS
+
+Q1. Question text
+
+Difficulty: Medium
+
+Q2. Question text
+
+Difficulty: Medium
+
+...
+
+# 10 MARK QUESTIONS
+
+Q1. Question text
+
+Difficulty: Hard
+
+Q2. Question text
+
+Difficulty: Hard
+
+...
+
+# MOST IMPORTANT EXAM QUESTIONS
+
+Select ONLY 5 questions from the entire question bank above.
+
+Rules:
+
+1. Do NOT generate new questions.
+2. Do NOT rewrite questions.
+3. Select the most important questions that students must prepare for the exam.
+4. Prefer conceptual, analytical, application based, derivation based, and frequently examinable questions.
+5. Avoid simple definition based questions unless absolutely essential.
+6. Questions may come from the 2 mark, 5 mark, or 10 mark sections.
+7. Return only the selected 5 questions.
+8. Mention the section from which each question was selected.
+
+Format:
+
+1. [5 MARK] Question text
+
+2. [10 MARK] Question text
+
+3. [5 MARK] Question text
+
+4. [10 MARK] Question text
+
+5. [2 MARK] Question text
+
+IMPORTANT:
+
+* Do NOT provide answers.
+* Do NOT explain your reasoning.
+* Do NOT include notes or commentary.
+* Do NOT use markdown code fences.
+* Return only the final question bank.
